@@ -3,6 +3,19 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.6.4 (23 Nov 2026)
+
+- Skyline Link tab: it shows only the run that has just finished, or the earlier results you opened with Open
+  previous results (the same run as the Report tab). Until then it is empty, with a short note saying so; it no
+  longer fills in the document, files or fields of an earlier run. Opening earlier results chooses that batch's
+  newest Skyline document (the adjusted copy, when Apply in Skyline made one). Before a run is loaded or finished,
+  Sample groups opens empty with a note saying why, and the tab's buttons say the same.
+- Desktop app: while an update installs, a small "Installing release ..." window stays on screen with a moving bar
+  and the time so far. The install runs in the background and takes a few minutes (Windows unpacks and checks the
+  app's own R and Python), and until it finishes the app's shortcut does not work. The window closes once the app is
+  running again. If the app was closed with an update waiting, it says when to start the app again.
+- The window first appears with the update after this one: the update to 0.6.4 itself still installs the old way.
+
 ## 0.6.3 (22 Nov 2026)
 
 - Apply in Skyline shows its progress: a bar with Skyline's own percentage while it takes in the boundaries, and the
