@@ -3,6 +3,13 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.6.5 (23 Nov 2026)
+
+- Desktop app: the app window now always opens after the start-up window. It used to wait for Windows to report the
+  page ready, and could stay on "Opening the window". It now opens once the page has loaded, or after 30 seconds at
+  the latest. A window position saved on a screen that is no longer connected is placed again, and a page that does
+  not load is tried again.
+
 ## 0.6.4 (23 Nov 2026)
 
 - Skyline Link tab: it shows only the run that has just finished, or the earlier results you opened with Open
