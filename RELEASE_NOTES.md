@@ -3,6 +3,14 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.6.7 (24 Nov 2026)
+
+- SST: a run whose standards elute late or early (e.g. after a blockage) is now found and measured where the peaks
+  are, with the RT shift flagged; a peak cut off by its acquisition window is flagged and never passes.
+- SST: sync integration copies a guide to every injection again (it used to blank injections it found no peak in).
+- SST: the dashboard follows the Peak viewer areas / Skyline's areas switch, so the %CV and pass/fail can be on
+  either. The SST settings fold away (Checks; areas in Skyline, watching and batch label).
+
 ## 0.6.6 (24 Nov 2026)
 
 - System suitability (SST), Full edition only: one SST for the Baker method and the Phospholipid Method Package,
