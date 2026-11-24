@@ -3,6 +3,18 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.6.6 (24 Nov 2026)
+
+- System suitability (SST), Full edition only: one SST for the Baker method and the Phospholipid Method Package,
+  with pass/fail as the FM-00063 form (area %CV and mean tailing factor per standard). The tailing factor, RT and
+  areas were checked against LabSolutions Insight.
+- Drop in the injections as they come off the instrument; test injections are shown with an IS mix check and kept
+  out of the stats. Drag an integration guide and the SST is recalculated at once.
+- Each method keeps its SST history in its own folder on the PC: save a run, copy its rows for the form online,
+  pick the standards saved, remove runs. The Report tab shows peak area over time and trends.
+- The Phospholipid Method Package SST also checks the Fatty Acid list's internal standard transitions, for the
+  head groups that saturate.
+
 ## 0.6.5 (23 Nov 2026)
 
 - Desktop app: the app window now always opens after the start-up window. It used to wait for Windows to report the
