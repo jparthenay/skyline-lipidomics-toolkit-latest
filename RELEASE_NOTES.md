@@ -3,6 +3,16 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.6.9 (25 Nov 2026)
+
+- Phospholipid Method Package SST: pick the Class ID or the Fatty Acid Composition SST. Each has its own standards
+  (Class ID 10, Fatty Acid all 25 IS transitions) and Run IDs end -CID or -FA.
+- Both save to one SST history and tracker, marked in a new SST column, so the shared transitions share their
+  trends. A Show switch (All / Class ID / Fatty Acid) filters the report's trends and the tracker's summary and charts.
+- SST: Run ID fills in for more file names, Skyline gets a 5 min RT window per standard, and the Skyline comparison
+  shows the viewer's %CV beside Skyline's.
+- Updates: the install progress window shows again (from the next update after this one).
+
 ## 0.6.8 (24 Nov 2026)
 
 - Updates: the "available" label opens the updater directly, the app checks again every few hours while open, and
