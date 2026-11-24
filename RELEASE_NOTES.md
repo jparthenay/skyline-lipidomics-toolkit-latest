@@ -3,6 +3,17 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.6.8 (24 Nov 2026)
+
+- Updates: the "available" label opens the updater directly, the app checks again every few hours while open, and
+  the update windows open on the app's screen.
+- SST: the area change comes from the last run in the SST history (the Previous SST results field is gone); each run
+  writes its own Skyline transition list of the ticked standards; Run ID refreshes with a new folder; a WIS prep date
+  after the run is flagged; Save to SST history always says where it saved.
+- SST tracker workbook: Run IDs of digits only no longer leave the summary tabs empty (rebuild the tracker).
+- Saturated peaks: one reading at the detector limit no longer inflates the area (TG_D5 %CV now close to Skyline's).
+- The four Baker internal standards are annotation level 1. Dropdowns close when clicked again.
+
 ## 0.6.7 (24 Nov 2026)
 
 - SST: a run whose standards elute late or early (e.g. after a blockage) is now found and measured where the peaks
