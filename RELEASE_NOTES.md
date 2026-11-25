@@ -3,6 +3,13 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.7.0 (25 Nov 2026)
+
+- SST: a run whose standards all fail or were not run (e.g. 3 FAIL and 1 NOT RUN) now reads FAIL.
+- SST runs can be marked Accepted or Rejected when saved or later; the tracker and the copied rows get a Decision
+  column (add it to the online form after Comment), and rejected runs show hollow in the trends.
+- A saved run's WIS prep date can be corrected; the history, the tracker's lots and charts, and the trends follow.
+
 ## 0.6.9 (25 Nov 2026)
 
 - Phospholipid Method Package SST: pick the Class ID or the Fatty Acid Composition SST. Each has its own standards
