@@ -3,6 +3,15 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.7.3 (27 Nov 2026)
+
+- SST report: Summary and Trends fold away; per-injection values show on hover (Injections table removed); the peak
+  area trend is a Levey-Jennings chart.
+- SST area %CV over 20% to under 30% is REVIEW, 30% or more FAIL (report, history and tracker).
+- The peak viewer's charts scroll on their own beside the molecule list.
+- Skyline: boundaries apply whether or not names carry "(ISTD)"; the Baker batch list and SST list take their
+  Explicit RT from the viewer's guides.
+
 ## 0.7.2 (27 Nov 2026)
 
 - Updates now show the installer's own progress window (no clicks needed), then the app starts again with its usual
