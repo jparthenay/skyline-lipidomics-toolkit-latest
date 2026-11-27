@@ -3,6 +3,14 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.7.1 (27 Nov 2026)
+
+- Phospholipid SST: each lyso standard has an optional sn-2 entry (unticked) with its own area %CV, tailing factor
+  and trends; sn-1 stays the default.
+- Fatty Acid SST lists its standards as the Fatty Acid analysis does: Class ID transitions on their own line (shared
+  with the Class ID SST history), the other transitions together, measured on the quantifier.
+- The Skyline area comparison box is wider.
+
 ## 0.7.0 (25 Nov 2026)
 
 - SST: a run whose standards all fail or were not run (e.g. 3 FAIL and 1 NOT RUN) now reads FAIL.
