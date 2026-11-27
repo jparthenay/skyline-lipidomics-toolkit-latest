@@ -3,6 +3,13 @@
 What each release changes, in a few lines, newest first. The desktop app's update window shows the newest entry and
 links here. The app's About > Version history and `batch_rt_toolkit/CHANGELOG.md` hold the full detail.
 
+## 0.7.2 (27 Nov 2026)
+
+- Updates now show the installer's own progress window (no clicks needed), then the app starts again with its usual
+  loading window. First seen on the update after this release.
+- Fatty Acid SST: all its lines are ticked by default again (switching from Class ID kept the Class ID ticks).
+- SST standards list: "Tick or untick by type" buttons, e.g. untick every LPG(17:1) line at once.
+
 ## 0.7.1 (27 Nov 2026)
 
 - Phospholipid SST: each lyso standard has an optional sn-2 entry (unticked) with its own area %CV, tailing factor
